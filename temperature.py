@@ -29,7 +29,7 @@ midle_temperature_month = 0
 f = open('Temperature.txt', 'a+')
 f.write(day + ' of ' + month + ': ' + str(midle_temperature) + '\n')
 if (count_day_month == day):
-  count = 0
+  count = 1
   f.seek(0)
   if i in range(len(f)):
     count += 1
